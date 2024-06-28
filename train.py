@@ -246,7 +246,12 @@ def cross_val(args):
     epochs = args.epochs
     learning_rate = args.lr
 
-    ts_train_data = get_ts_features(args.train_data_root)
+    if not os.path.exists(os.path.join(args.train_ts_data_root, 'merged')):
+        ts_train_data = get_ts_features(args.train_data_root)
+    else:
+        ts_train_data = os.path.join(args.train_ts_data_root, 'merged')
+
+    # ts_train_data = get_ts_features(args.train_data_root)
         
     train_df = get_data(ts_train_data)
     train_label = load_label_data(args.label_path)
@@ -333,7 +338,10 @@ def train(args):
     else:
         train_transforms = None
  
-    ts_train_data = get_ts_features(args.train_data_root)
+    if not os.path.exists(os.path.join(args.train_ts_data_root, 'merged')):
+        ts_train_data = get_ts_features(args.train_data_root)
+    else:
+        ts_train_data = os.path.join(args.train_ts_data_root, 'merged')
         
     train_df = get_data(ts_train_data)
     train_label = load_label_data(args.label_path)
