@@ -32,39 +32,6 @@ def test(model, test_loader, device, args):
 
     df.to_csv(f'{save_path}/Submit_{args.name}.csv', index=False)
     print("=======Test Complete=======")
-    
-    ########################################################################
-    ##########################확인용 코드####################################
-    ##########################제출전 삭제####################################
-    
-    # df1 = pd.read_csv(f'{save_path}/Submit_{args.name}.csv')
-    # df6 = pd.read_csv('D:/etri/compare/5.99_6.0_6.04_6.08_6.1.csv')
-    
-    # same_count = 0
-    # different_count = 0
-
-    # for col in df1.columns:
-    #     same_count += (df1[col] == df6[col]).sum()
-    #     different_count += (df1[col] != df6[col]).sum()
-
-    # print(f"6.33 결과값 비교")
-    # print(f"같은 값의 개수: {same_count - 2 * 115}")
-    
-    
-    # df2 = pd.read_csv('D:/etri/compare/61.csv')
-    # same_count = 0
-    # different_count = 0
-
-    # for col in df1.columns:
-    #     same_count += (df1[col] == df2[col]).sum()
-    #     different_count += (df1[col] != df2[col]).sum()
-
-    # print(f"6.1 결과값 비교")
-    # print(f"같은 값의 개수: {same_count - 2 * 115}")
-    # print(f"다른 값의 개수: {different_count}")
-    
-    ########################################################################
-    ########################################################################
             
 def Submit_test_data(args):
     
