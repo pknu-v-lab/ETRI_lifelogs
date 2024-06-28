@@ -111,17 +111,18 @@ class Ensemble_Model(nn.Module):
         
         if model_num == 1 :
             self.models.append(model_class(input_size, hidden_size, num_layers, output_size))
-            self.models[0].load_state_dict(torch.load(combined_weight_path))
+            
+            if torch.cuda.is_available():
+                self.models[0].load_state_dict(torch.load(combined_weight_path, map_location='cpu'))
+            else:
+                self.models[0].load_state_dict(torch.load(combined_weight_path))
             
         else:
-            # 고쳐야 됨
             for i in range(model_num):
                 if i == 0 or i ==1:
                     self.models.append(model_class(60, 64, 2, 7))
-                    # self.models.append(model_class(input_size, 64, num_layers, output_size))
                 else:
                     self.models.append(model_class(60, 32, 2, 7))
-                    # self.models.append(model_class(input_size, hidden_size, num_layers, output_size))
                     
                 self.models[i].load_state_dict(combined_state_dict[f'model_{i+1}'])
 
