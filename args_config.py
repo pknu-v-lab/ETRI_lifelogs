@@ -29,7 +29,7 @@ def get_args():
     parser.add_argument('--model', default=LSTM, help='option : LSTM, BILSTM , GRU , BIGRU')
     parser.add_argument('--scheduler', default=False, help='True : Cosin Annealing | False : Multi Step')
     parser.add_argument('--step', type=list, default=[20], help='step epochs')
-    parser.add_argument('--threshold', default=0.6 ,help='threshold')
+    parser.add_argument('--threshold', default=0.55 ,help='threshold')
     
     # Augmentation
     parser.add_argument('--transforms', default=True, help='Data augmentation')
