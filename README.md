@@ -13,6 +13,7 @@
 <br/>
 
 > 활용 데이터
++ 휴먼이해 데이터셋 [`Paper`](https://arxiv.org/abs/2403.16509)
 + train: 2023년 데이터(105일치)
 + test: 2023년 데이터(115일치)
   + heart rate, mobile accelerator, mobile gps data
