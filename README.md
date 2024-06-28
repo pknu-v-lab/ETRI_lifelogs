@@ -118,17 +118,21 @@ pip install -r requirements.txt
 
 ## Data Structure
 ### 🗂️ Raw Data
-레포지토리 하위 폴더로 원본 데이터(raw data) 저장 필요
+레포지토리 하위 폴더로 원본 데이터(raw data) 저장 및 <mark><b>이름 수정 필요</b></mark>
+<br /><kbd>휴먼이해2024 --> human2024</kbd>
+<br /><kbd>val dataset --> val_dataset</kbd>
+<br /><kbd>test dataset --> test_dataset</kbd>
+<br />
 ```
-ETRI2024
-   └──휴먼이해 2024
-      ├── val dataset
+ETRI_lifelog
+   └──human2024
+      ├── val_dataset
       │    ├── ch2024_val__m_acc_part_1.parquet.gzip
       │    ├── ch2024_val__m_acc_part_2.parquet.gzip
       │    ├── ...
       │    └──ch2024_val__w_pedo.parquet.gzip
       │ 
-      └── test dataset
+      └── test_dataset
            ├── ch2024_test__m_acc_part_5.parquet.gzip
            ├── ch2024_test__m_acc_part_6.parquet.gzip
            ├── ...
@@ -138,8 +142,8 @@ ETRI2024
 ### 🗂️ Feature Data
 학습 및 테스트 시, 원본 데이터(raw data)로부터 feature data가 생성되어 저장됨. (약 50MB)
 ```
-ETRI2024
-   └──Feature_data
+ETRI_lifelog
+   └──feature_data
       ├── train_ts
       │    └── merged
       │         ├── merged_1.csv
@@ -171,7 +175,7 @@ python trainer.py \
 ```
 python tester.py \
       --test_data_path YOUR/ETRI2024/TEST/DATA/FOLDER/PATH \
-      -w YOUR/WEIGHT/PATH/weight.pth \
+      -w YOUR/WEIGHT/PATH/combined_model2.pth \
 ```
 
 
