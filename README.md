@@ -119,9 +119,9 @@ ETRI_lifelog
 ## Data Structure
 ### 🗂️ Raw Data
 레포지토리 하위 폴더로 원본 데이터(raw data) 저장 및 <mark><b>이름 수정 필요</b></mark>
-<br /><kbd>휴먼이해2024 --> human2024</kbd>
-<br /><kbd>val dataset --> val_dataset</kbd>
-<br /><kbd>test dataset --> test_dataset</kbd>
+<br /><kbd>휴먼이해2024 ➡️ human2024</kbd>
+<br /><kbd>val dataset ➡️ val_dataset</kbd>
+<br /><kbd>test dataset ➡️ test_dataset</kbd>
 <br />
 ```
 ETRI_lifelog
