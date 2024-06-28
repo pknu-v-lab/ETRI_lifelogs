@@ -1,0 +1,13 @@
+__pycache__/
+aaaa.ipynb
+weights/
+results/
+output/
+log_dir/
+test.py
+combine_pth.py
+bash.exe.stackdump
+feature_data/
+figures/
+human2024/
+.vscode/
