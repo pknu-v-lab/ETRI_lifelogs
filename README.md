@@ -49,12 +49,12 @@ pip install -r requirements.txt
   </thead>
   <tbody>
     <tr>
-      <td>Model 1</td>
+      <td>Model 1 </td>
       <td align="right">LSTM</td>
       <td align="center">32</td>
       <td align="center">2</td>
       <td align="center">:x:</td>
-      <td align="center">:white_check_mark:</td>
+      <td align="center">:x:</td>
       <td align="center">:white_check_mark:</td>
     </tr>
     <tr>
@@ -63,7 +63,7 @@ pip install -r requirements.txt
       <td align="center">32</td>
       <td align="center">2</td>
       <td align="center">:x:</td>
-      <td align="center">:x:</td>
+      <td align="center">:white_check_mark:</td>
       <td align="center">:white_check_mark:</td>
     </tr>
     <tr>
@@ -71,7 +71,7 @@ pip install -r requirements.txt
       <td align="right">LSTM</td>
       <td align="center">32</td>
       <td align="center">2</td>
-      <td align="center">:x:</td>
+      <td align="center">:white_check_mark:</td>
       <td align="center">:white_check_mark:</td>
       <td align="center">:white_check_mark:</td>
     </tr>
@@ -80,21 +80,12 @@ pip install -r requirements.txt
       <td align="right">LSTM</td>
       <td align="center">32</td>
       <td align="center">2</td>
-      <td align="center">:white_check_mark:</td>
-      <td align="center">:white_check_mark:</td>
-      <td align="center">:white_check_mark:</td>
-    </tr>
-    <tr>
-      <td>Model 5 </td>
-      <td align="right">LSTM</td>
-      <td align="center">32</td>
-      <td align="center">2</td>
       <td align="center">:x:</td>
       <td align="center">:white_check_mark:</td>
       <td align="center">:white_check_mark:</td>
     </tr>
     <tr>
-      <td>Model 6 </td>
+      <td>Model 5 </td>
       <td align="right">LSTM</td>
       <td align="center">64</td>
       <td align="center">2</td>
