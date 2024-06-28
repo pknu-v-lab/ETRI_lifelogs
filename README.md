@@ -96,7 +96,7 @@ pip install -r requirements.txt
   </tbody>
 </table>
 
-🌠**Ensembled Model**: [download](https://drive.google.com/file/d/1YUk-eAsYNSzoP0xFDqZ9xGNwvw1Yq_hp/view?usp=sharing)
+🌠**Model weight (.pth)**: [download](https://drive.google.com/file/d/1YUk-eAsYNSzoP0xFDqZ9xGNwvw1Yq_hp/view?usp=sharing)
 
 <br />
 가중치 파일은 <code>weights</code> 폴더 내부에 저장
