@@ -112,7 +112,7 @@ pip install -r requirements.txt
   </tbody>
 </table>
 
-🌠**Ensembled Model**: [download](https://drive.google.com/file/d/12jGK_oKURLps30hYqWqF1-zZJvW2D8b7/view?usp=sharing)
+🌠**Ensembled Model**: [download](https://drive.google.com/file/d/1YUk-eAsYNSzoP0xFDqZ9xGNwvw1Yq_hp/view?usp=sharing)
 
 <br />
 
