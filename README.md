@@ -142,32 +142,27 @@ ETRI_lifelog (this repository)
       │         ├── merged_2.csv
       │         ├── merged_3.csv
       │         └── merged_4.csv
-      └── test_ts
-           └── merged
-                ├── merged_5.csv
-                ├── merged_6.csv
-                ├── merged_7.csv
-                └── merged_8.csv
+      ├── test_ts
+      │    └── merged
+      │         ├── merged_5.csv
+      │         ├── merged_6.csv
+      │         ├── merged_7.csv
+      │         └── merged_8.csv
+      └── val_label.csv
 ```
 ## ✨ Cross Validation
 ```
-python cross_val.py \
-      --train_data_root YOUR/ETRI2024/VAL/DATA/FOLDER/PATH \
-      --label_path YOUR/VAL/LABEL/PATH/val_label.csv \
+python cross_val.py
 ```
 
 ## ✨ Train
 ```
-python trainer.py \
-      --train_data_root YOUR/ETRI2024/VAL/DATA/FOLDER/PATH \
-      --label_path YOUR/VAL/LABEL/PATH/val_label.csv \
+python trainer.py
 ```
 
 ## ✨ Test
 ```
-python tester.py \
-      --test_data_path YOUR/ETRI2024/TEST/DATA/FOLDER/PATH \
-      -w YOUR/WEIGHT/PATH/combined_model.pth \
+python tester.py
 ```
 
 
