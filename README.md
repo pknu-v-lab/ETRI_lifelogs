@@ -45,7 +45,6 @@ pip install -r requirements.txt
       <th>Time<br />Shift</th>
       <th>Noise</th>
       <th>Class Imbalance
-      <th>download</th>
     </tr>
   </thead>
   <tbody>
@@ -57,7 +56,6 @@ pip install -r requirements.txt
       <td align="center">:x:</td>
       <td align="center">:white_check_mark:</td>
       <td align="center">:white_check_mark:</td>
-      <td align="center"><a href="https://drive.google.com/file/d/1R9l1cn1ZSfxj1JSZx-b7V2nvJO5__DAr/view?usp=drive_link">model</a></td>
     </tr>
     <tr>
       <td>Model 2 </td>
@@ -67,7 +65,6 @@ pip install -r requirements.txt
       <td align="center">:x:</td>
       <td align="center">:x:</td>
       <td align="center">:white_check_mark:</td>
-      <td align="center"><a href="https://drive.google.com/file/d/16S3w41kZ2ejErIyG1680Wn-AV1YEN8kO/view?usp=drive_link">model</a></td>
     </tr>
     <tr>
       <td>Model 3 </td>
@@ -77,7 +74,6 @@ pip install -r requirements.txt
       <td align="center">:x:</td>
       <td align="center">:white_check_mark:</td>
       <td align="center">:white_check_mark:</td>
-      <td align="center"><a href="https://drive.google.com/file/d/1XZyTckuTRNtJoEK_M36TDM0h_XQ_M7S4/view?usp=drive_link">model</a></td>
     </tr>
     <tr>
       <td>Model 4 </td>
@@ -87,7 +83,6 @@ pip install -r requirements.txt
       <td align="center">:white_check_mark:</td>
       <td align="center">:white_check_mark:</td>
       <td align="center">:white_check_mark:</td>
-      <td align="center"><a href="https://drive.google.com/file/d/1CXyhw8F9zK3m5bVKHKgwyuqYiXkhgXpw/view?usp=drive_link">model</a></td>
     </tr>
     <tr>
       <td>Model 5 </td>
@@ -97,7 +92,6 @@ pip install -r requirements.txt
       <td align="center">:x:</td>
       <td align="center">:white_check_mark:</td>
       <td align="center">:white_check_mark:</td>
-      <td align="center"><a href="https://drive.google.com/file/d/1diuufnsVEQE7yq85gBigHmu4ZXiWDTBq/view?usp=drive_link">model</a></td>
     </tr>
     <tr>
       <td>Model 6 </td>
@@ -107,7 +101,6 @@ pip install -r requirements.txt
       <td align="center">:x:</td>
       <td align="center">:x:</td>
       <td align="center">:x:</td>
-      <td align="center"><a href="https://drive.google.com/file/d/1z08H4Sb8VPQsDce28LbxIoEHOGbvGLp4/view?usp=drive_link">model</a></td>
     </tr>
   </tbody>
 </table>
@@ -115,6 +108,13 @@ pip install -r requirements.txt
 🌠**Ensembled Model**: [download](https://drive.google.com/file/d/1YUk-eAsYNSzoP0xFDqZ9xGNwvw1Yq_hp/view?usp=sharing)
 
 <br />
+가중치 파일은 <code>weights</code> 폴더 내부에 저장
+
+```
+ETRI_lifelog
+   └──weights
+      └──combined_model2.pth
+```
 
 ## Data Structure
 ### 🗂️ Raw Data
