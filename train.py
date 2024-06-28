@@ -250,8 +250,6 @@ def cross_val(args):
         ts_train_data = get_ts_features(args.train_data_root)
     else:
         ts_train_data = os.path.join(args.train_ts_data_root, 'merged')
-
-    # ts_train_data = get_ts_features(args.train_data_root)
         
     train_df = get_data(ts_train_data)
     train_label = load_label_data(args.label_path)
