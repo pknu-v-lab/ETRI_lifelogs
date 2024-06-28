@@ -113,9 +113,9 @@ class Ensemble_Model(nn.Module):
             self.models.append(model_class(input_size, hidden_size, num_layers, output_size))
             
             if torch.cuda.is_available():
-                self.models[0].load_state_dict(torch.load(combined_weight_path, map_location='cpu'))
-            else:
                 self.models[0].load_state_dict(torch.load(combined_weight_path))
+            else:
+                self.models[0].load_state_dict(torch.load(combined_weight_path, map_location='cpu'))
             
         else:
             for i in range(model_num):
