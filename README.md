@@ -19,8 +19,8 @@
 <br />
 
 ## Dependencies
-Torch 2.0.1 and above.
-<br /> **Installing Pytorch with CUDA support is recommended.**
+Torch 2.0.1 혹은 그 이상 버전에서 동작함.
+<br /> **CUDA service [PyTorch](https://pytorch.org/get-started/locally/) 설치 권장**
 <br /><br />
 
 
@@ -96,7 +96,7 @@ pip install -r requirements.txt
   </tbody>
 </table>
 
-🌠**Model weight (.pth)**: [download](https://drive.google.com/file/d/1YUk-eAsYNSzoP0xFDqZ9xGNwvw1Yq_hp/view?usp=sharing)
+🌠**Ensembled Model**: [download](https://drive.google.com/file/d/1YUk-eAsYNSzoP0xFDqZ9xGNwvw1Yq_hp/view?usp=sharing)
 
 <br />
 가중치 파일은 <code>weights</code> 폴더 내부에 저장
@@ -166,7 +166,7 @@ python trainer.py \
 ```
 python tester.py \
       --test_data_path YOUR/ETRI2024/TEST/DATA/FOLDER/PATH \
-      -w YOUR/WEIGHT/PATH/combined_model2.pth \
+      -w YOUR/WEIGHT/PATH/combined_model.pth \
 ```
 
 
