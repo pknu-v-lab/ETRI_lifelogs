@@ -104,7 +104,7 @@ pip install -r requirements.txt
 ```
 ETRI_lifelog
    └──weights
-      └──combined_model2.pth
+      └──combined_model.pth
 ```
 
 ## Data Structure
