@@ -12,7 +12,7 @@ def get_args():
     parser.add_argument('-w', '--weight', type=str, help='weight path', default='./weights/combined_model.pth')
 
     # model num, threshold 바꾸기
-    parser.add_argument('--model_num', type=int, default=5, help='ensemble model number')
+    parser.add_argument('--model_num', type=int, default=9, help='ensemble model number')
     parser.add_argument('--name', type=str, default='Test' ,help='path name')
     parser.add_argument('--root', type=str, default='./weights/', help='weight save path')
     parser.add_argument('--train_ts_data_root', type=str, default='./feature_data/train_ts/')
@@ -29,7 +29,7 @@ def get_args():
     parser.add_argument('--model', default=LSTM, help='option : LSTM, BILSTM , GRU , BIGRU')
     parser.add_argument('--scheduler', default=False, help='True : Cosin Annealing | False : Multi Step')
     parser.add_argument('--step', type=list, default=[20], help='step epochs')
-    parser.add_argument('--threshold', default=0.55 ,help='threshold')
+    parser.add_argument('--threshold', default=0.59 ,help='threshold')
     
     # Augmentation
     parser.add_argument('--transforms', default=True, help='Data augmentation')
