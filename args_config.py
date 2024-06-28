@@ -12,7 +12,7 @@ def get_args():
     parser.add_argument('-w', '--weight', type=str, help='weight path', default='./weights/combined_model.pth')
 
     # model num, threshold 바꾸기
-    parser.add_argument('--model_num', type=int, default=4, help='ensemble model number')
+    parser.add_argument('--model_num', type=int, default=5, help='ensemble model number')
     parser.add_argument('--name', type=str, default='Test' ,help='path name')
     parser.add_argument('--root', type=str, default='./weights/', help='weight save path')
     parser.add_argument('--train_ts_data_root', type=str, default='./feature_data/train_ts/')
