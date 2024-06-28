@@ -102,7 +102,7 @@ pip install -r requirements.txt
 가중치 파일은 <code>weights</code> 폴더 내부에 저장
 
 ```
-ETRI_lifelog
+ETRI_lifelog (this repository)
    └──weights
       └──combined_model.pth
 ```
@@ -115,7 +115,7 @@ ETRI_lifelog
 <br /><kbd>test dataset ➡️ test_dataset</kbd>
 <br />
 ```
-ETRI_lifelog
+ETRI_lifelog (this repository)
    └──human2024
       ├── val_dataset
       │    ├── ch2024_val__m_acc_part_1.parquet.gzip
@@ -133,7 +133,7 @@ ETRI_lifelog
 ### 🗂️ Feature Data
 학습 및 테스트 시, 원본 데이터(raw data)로부터 feature data가 생성되어 저장됨. (약 50MB)
 ```
-ETRI_lifelog
+ETRI_lifelog (this repository)
    └──feature_data
       ├── train_ts
       │    └── merged
