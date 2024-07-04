@@ -45,7 +45,7 @@ pip install -r requirements.txt
       <th>Layer<br />Number</th>
       <th>Time<br />Shift</th>
       <th>Noise</th>
-      <th>Class Imbalance
+      <th>ACI
     </tr>
   </thead>
   <tbody>
